@@ -24,7 +24,10 @@
                        
                         <f:facet name="header">Müşteri Listesi</f:facet>
                        
-                        <p:column headerText="Id" sortBy="#{must.no}" filterBy="#{must.no}">
+                        <p:column headerText="Id" 
+                                  sortBy="#{must.no}" 
+                                  filterBy="#{must.no}"
+                                  filterMatchMode="">
                             <p:outputLabel value="#{must.no}"/>
                         </p:column>
                        
