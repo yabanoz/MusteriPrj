@@ -5,11 +5,9 @@ import java.sql.SQLException;
 import java.util.List;
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
-import javax.faces.bean.RequestScoped;
 import javax.faces.bean.ViewScoped;
 import tr.gov.ptt.musteriprj.dao.MusteriDAO;
 import tr.gov.ptt.musteriprj.dto.Musteri;
-import tr.gov.ptt.musteriprj.util.JSFUtil;
 
 
 @ManagedBean
