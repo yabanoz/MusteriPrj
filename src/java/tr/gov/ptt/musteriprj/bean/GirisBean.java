@@ -16,6 +16,7 @@ public class GirisBean {
     private Giris giris;
 
     public GirisBean() {
+        giris = new Giris();
     }
      
     public Giris getGiris() {
